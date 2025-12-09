@@ -107,7 +107,7 @@ function updateMovie(movieId, updatedMovieData) {
 
 
 function deleteMovie(movieId) {
-    fetch(`${ API_URL }/${movieId.toString()}, {
+    fetch(`${ API_URL }/${movieId.toString()}`, {
         method: 'DELETE',
     })
 .then(response => {
